@@ -1,0 +1,169 @@
+.header{
+    
+  display: flex;
+  justify-content: space-between;
+   align-items: center;
+   flex-direction: row;
+   padding: 10px 15px 10px 15px;
+  
+
+   .logo{
+       text-align: center;
+       padding: 8px;
+       width: 70px;
+       height: 70px;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #dee6e6, #ffffff);
+    box-shadow:  20px 20px 60px #d2d9d9, 
+                 -20px -20px 60px #ffffff;
+    z-index: 10;
+
+       #logo-img{
+           width: 100%;
+       }
+   }
+   
+
+   .name{
+       font-size: 10px;
+   }
+
+   .main-nav{
+       display: none;
+   }
+
+   .toggle{
+       display: none;
+       
+   }
+   #toggle:checked ~ .main-nav {
+    display: inline-block;
+    position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+   }
+   
+
+   .nav-item{
+       font-size: 18px;
+       color: black;
+       a{
+           color: black;
+       }
+       .btn{
+        padding: 10px 20px;
+        background-color: gray;
+        color: black;
+        border-radius: 27px;
+        background: linear-gradient(145deg, #dee6e6, #ffffff);
+        box-shadow:  7px 7px 14px #d2d9d9, 
+        -7px -7px 14px #ffffff;
+     }
+   }
+
+  .bar{
+      z-index: 10;
+      cursor: pointer;
+        font-size: 24px;
+        color: rgb(172, 7, 7);
+        margin-right: 10px;
+      
+  }
+
+ .main-nav .nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right: 0;
+    
+    background:rgb(255, 255, 255);
+    
+  }
+   .main-nav .nav-items li{
+    padding-bottom: 2em;
+   }
+
+}
+
+
+.intro{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 550px;
+    .image{
+        .school-logo{
+            width: 150px;
+        }
+    }
+
+
+   .intro-text{
+       .school-name{
+           font-size: 22px;
+           font-weight: 700;
+           padding-bottom: 5px;
+          
+       }
+
+      h3{
+          font-size: 20px;
+          padding-bottom: 20px;
+          font-weight: 600;
+          color:rgb(175, 2, 2);
+      }
+       
+      h4{
+          font-size: 18px;
+          padding-bottom: 30px;
+          font-weight: 500;
+         color: orangered;
+      }
+        
+      .school-add{
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 20px;
+      }
+
+      .btn{
+          background-color: lightgray;
+          padding: 10px 25px;
+          border-radius: 27px;
+          font-weight: 800;
+          color: black;
+          font-size: 18px;
+      }
+
+      .home-btn{
+       
+        // background: #F7FFFF;
+        border-radius: 62px;
+// background: linear-gradient(145deg, #dee6e6, #ffffff);
+box-shadow:  7px 7px 14px #d2d9d9, 
+             -7px -7px 14px #ffffff;
+        background: url('../images/bgfinal.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .home-btn:active{
+        border-radius: 62px;
+        background: #F7FFFF;
+        box-shadow: inset 7px 7px 14px #d2d9d9, 
+                    inset -7px -7px 14px #ffffff;
+      }
+
+   }
+
+}

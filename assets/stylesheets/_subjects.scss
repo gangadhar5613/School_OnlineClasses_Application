@@ -1,0 +1,69 @@
+// .student-profile{
+//     height: 50px;
+// }
+
+
+
+
+
+.back-btn{
+    font-size: 16px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 10px #d9d9d9, 
+        -5px -5px 10px #ffffff;
+        border-radius: 10px;
+        color: black;
+
+ padding: 6px 6px;
+ margin: 2px;
+}
+
+
+.upload-file{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  5px 5px 10px #d9d9d9, 
+        -5px -5px 10px #ffffff;
+
+
+//    #fileToUpload{
+//        font-size: 16px;
+//        border: none;
+//    }
+
+  
+
+
+    button{
+        font-size: 16px;
+        margin-top: 10px;
+        background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow:  5px 5px 10px #d9d9d9, 
+            -5px -5px 10px #ffffff;
+            border-radius: 10px;
+            color: black;
+        border: none;
+        padding: 5px 20px;
+        cursor: pointer;
+    }
+
+
+    .success{
+        font-size: 20px;
+        display:none;
+        margin-top: 10px;
+        color: green;
+    }
+
+    .failure{
+        font-size: 20px;
+        display: none;
+        margin-top: 10px;
+        color: red;
+    }
+}
+
+

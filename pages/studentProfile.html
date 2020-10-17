@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Nalanda High School</title>
+    <link rel="stylesheet" href="../assets/stylesheets/main.css">
+    <link rel="icon" href="../assets/images/logopng.png" type="image/svg" sizes="70x70">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
+ </head>
+ <body>
+    <header class="profile-head container">
+        <div class="logo">
+            <img id="logo-img" src="../assets/images/logopng.png" alt="Nalanda School Logo">
+            <h1>Sree Nalanda High School</h1>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="../index.html">Logout</a></li>
+        </ul>
+    </header>
+     <main>
+        <article class="student-profile container">
+            <section class="student-opt">
+                <div class="student-image">
+                   <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="options">
+                   <select name="option-select" class="selection">
+                       <option value="Profile" data-set="profile">Profile</option>
+                       <option value="Classes" data-set="classes">Subjects</option>
+                   </select>
+                </div>
+            </section>
+        </article>
+        <section class="student-details container content-box">
+            <div class="insert-data">
+                <div class="stu-name box">
+                    <span class=" iden name">Name :</span>
+                    <h2 class=" stu student-name"></h2>
+                </div>
+                <div class="stu-class box">
+                   <span class="iden class">Class :</span>
+                   <h2 class="stu student-class">9th</h2>
+                </div>
+                <div class="stu-reg box">
+                    <span class="iden class">Registration No :</span> 
+                    <h2 class="stu student-reg-no">A123452</h2>
+                </div>
+                <div class="stu-add box">
+                 <span class="iden address">Address :</span> 
+                 <h2 class="stu student-address">Sidhout,Kadapa</h2>
+                </div>
+            </div>
+             <!-- <div class="student-content">
+                 <table class="student-data">
+                     <tr class="name box">
+                         <td class="profile-iden">Name</td>
+                         <td class=" stu student-name">N Gangadhar Reddy</td>
+                     </tr>
+                     <tr class="stu-class box">
+                         <td class="profile-iden">Class</td>
+                         <td class=" stu student-class">10</td>
+                     </tr>
+                     <tr class="reg-no box">
+                         <td class="profile-iden">Registration No</td>
+                         <td class="stu student-reg-no">A123456</td>
+                     </tr>
+                     <tr class="stu-add box">
+                         <td class="profile-iden">Address</td>
+                         <td class="stu student-address">Sidhout,Kadapa,Andhrapradesh</td>
+                     </tr>
+                 </table>
+             </div> -->
+         <!-- </div> -->
+         </section>
+     </main>
+     <footer>
+         <div class="foot">
+             <small>All rights reserved &copy; Sree Nalanda High School</small>
+             <p>Made by Alumni Of Nalanda</p>
+         </div>
+     </footer>
+     <script src="../assets/js/main.js"></script>
+     <script src="../assets/js/profile.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+     <script src="/assets/js/firebase.js"></script>
+     <script src="../assets/js/login.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+ </body>
+</html>

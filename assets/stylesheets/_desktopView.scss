@@ -1,0 +1,67 @@
+@media screen and (min-width:720px){
+  .header{
+      .main-nav{
+          display: block;
+          .nav-items{
+              display: flex;
+              flex-direction: row;
+              justify-content: space-around;
+              align-items: center;
+              position: relative;
+          }
+          .nav-items li{
+              color: black;
+              
+             margin: 5px;
+          }
+          .nav-items li a:hover{
+              background-color: black;
+              color: white;
+              padding: 10px 10px;
+          }
+      }
+      .toggle{
+        display: none;
+        
+    }
+    .bar{
+        display: none;
+    }
+  
+  }
+  .intro{
+      height: 85vh;
+    .intro-text{
+        .school-name{
+            font-size: 40px;
+            padding-bottom: 10px;
+        }
+        h3{
+            font-size: 30px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        .school-add{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.about-school{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 20px;
+
+    .info-box{
+        width: 500px;
+        height:200px;
+        margin: 10px;
+    }
+}
+
+
+
+} 

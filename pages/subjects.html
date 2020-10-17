@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sree Nalanda High School</title>
+    <link rel="stylesheet" href="../assets/stylesheets/main.css">
+    <link rel="icon" href="../assets/images/logopng.png" type="image/svg" sizes="70x70">
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://vjs.zencdn.net/7.8.4/video-js.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="../assets/js/data.js"></script>
+ </head>
+ <body>
+     <header class="profile-head container">
+        <div class="logo">
+            <img id="logo-img" src="../assets/images/logopng.png" alt="Nalanda School Logo">
+            <h1>Sree Nalanda High School</h1>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a class="headNavItem" href="../index.html">Logout</a></li>
+        </ul>
+    </header>
+    <main>
+        <article class="student-profile container">
+            <section class="student-opt">
+                <div class="student-image">
+                   <i class="fas fa-user-graduate"></i>
+                </div>
+                <div class="back">
+                    <a id="back" href="../pages/studentProfile.html" class="back-btn ">Back to profile</a>
+                </div>
+            </section>
+        </article>
+       <article class="uiChange">
+        <section class="container class-btns">
+            <div class="classes">
+                <a href="#" class="subject telugu" data-value="0" data-set="Telugu">Telugu</a>
+                <a href="#" class="subject hindi" data-value="1" data-set="Hindi">Hindi</a>
+                <a href="#" class="subject english"data-value="2" data-set="English">English</a>
+                <a href="#" class="subject maths" data-value="3" data-set="Maths">Maths</a>
+                <a href="#" class="subject science" data-value="4" data-set="Science">Science</a>
+                <a href="#" class="subject biology" data-value="5" data-set="Biology">Biology</a>
+                <a href="#" class="subject social" data-value="5" data-set="Social">Social</a>
+            </div>
+     </section>
+       </article>
+        <!-- <article class="subjects container">
+            <section class="subject-info">
+                <a  class="btn  sub-btn" href="#">Telugu</a>
+                <div class="select-chp">
+                    <select class="chapter-opt">
+                        <option value="Chapter-1">Chapter-1</option>
+                        <option value="Chapter-1">Chapter-2</option>
+                        <option value="Chapter-1">Chapter-3</option>
+                        <option value="Chapter-1">Chapter-4</option>
+                    </select>
+                </div>
+            </section>
+        </article>
+        <article class="class-content data-box container">
+            <Section class="class-instructions">
+                <h2 class="chapter">Chapter-1</h2>
+                <p class="chapter-inst">Please complete the video and note down your doubts in book and ask your subject teacher.</p>
+            </Section>
+            <section class="video">
+              <iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/BwOXp5GgFGs"  modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="notes">
+                <div class="notes-box">
+                    <h3>Home Work</h3>
+                    <ul class="instruction-hm">
+                        <li>Write down neatly in a note book</li>
+                        <li>Take clear picture of the home work with the help of your parents</li>
+                        <li>Upload your home work here</li>
+                    </ul>
+                    <div class="upload-file">
+                        <form action="/index.html" method="post" enctype="multipart/form-data">
+                           <p> Select image to upload:</p>
+                            <input type="file" name="fileToUpload" id="fileToUpload">
+                          </form>
+                    </div>
+                </div>
+            </section>
+        </article> -->
+        </main>
+  </body>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <script src="/assets/js/subjects.js"></script>
+        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+</html>

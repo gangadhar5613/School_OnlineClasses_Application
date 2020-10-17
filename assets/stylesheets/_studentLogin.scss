@@ -1,0 +1,135 @@
+// #textInput {
+//     width: 293px;
+//     height: 33px;
+//   }
+  
+//   #textField {
+//     width: 293px;
+//     height: 33px;
+//     border: solid 3.5px rgba(59,153,252,0.5);
+//     background: #ffffff;
+//     box-shadow: inset 0px 0px 1px rgba(0,0,0,0.05);
+//   }
+  
+//   #value {
+//     width: 281.5px;
+//     height: 17px;
+//     color: #252525;
+//     font-family: "SFProText-Regular";
+//     font-size: 13px;
+//     font-weight: 400;
+//     line-height: 17px;
+//     letter-spacing: -0.08px;
+//   }
+  
+
+
+.login-activity{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    // justify-content: center;
+    // height: 75vh;
+    .icon{
+        width: 100px;
+        .std-icon{
+            width: 100%;
+        }
+    }
+    
+
+    .login-head{
+        font-size: 25px;
+        padding: 10px 15px;
+        font-weight: 800;
+        color: red;
+    }
+   
+    .form-section{
+        background:url('../images/bgfinal.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 20px;
+        
+        // background: linear-gradient(145deg, #e6e6e6, #ffffff);
+        box-shadow:  5px 5px 10px #d9d9d9, 
+                     -3px -3px 6px #d9d9d9;
+
+        padding: 1.5rem;
+
+        .class-select{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+
+            .label{
+                font-size: 20px;
+               padding-right: 10px;
+               font-weight: 900;
+               color: black;
+            }
+            .options-class{
+                padding: 10px 25px;
+                border:none;
+                background: linear-gradient(145deg, #e6e6e6, #ffffff);
+         box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+              outline: none;
+              border-radius: 15px;
+
+                
+            }
+        }
+
+        input{
+            
+            width: 293px;
+             height: 33px;
+             margin-top: .2rem;
+             padding-top: .2rem;
+             border: solid 2px lightgray;
+                 background:none;
+                 box-shadow: inset 0px 0px 1px rgba(0,0,0,0.05);
+                 outline: red;
+        }
+
+        .field{
+            padding-bottom: .8rem;
+        }
+
+        .username, .password{
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+       .login-btn{
+           margin-top: 10px;
+           display: inline-block;
+           
+           color: black;
+           border:none;
+           padding: 10px 20px;
+           border-radius: 62px;
+         background: linear-gradient(145deg, #e6e6e6, #ffffff);
+         box-shadow:  5px 5px 10px #d9d9d9, 
+             -5px -5px 10px #ffffff;
+        outline: none;
+       }
+
+       .login-btn:active{
+        border-radius: 62px;
+        background: #ffffff;
+        box-shadow: inset 5px 5px 10px #d9d9d9, 
+                    inset -5px -5px 10px #ffffff;
+        outline: none;
+       }
+
+    }
+    .instruction{
+        margin-top: 20px;
+    }
+
+}
+
