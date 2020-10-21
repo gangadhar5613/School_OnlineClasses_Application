@@ -11,7 +11,7 @@ let videoFiles = [
            `<iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/x-sLNfV5foc"  modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
        ],
        [
-          // subject:"Hindi",
+
           `<iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/bZhUuhBNhxA" modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
          `<iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/eAd3sR7YpTQ" modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
          `<iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/H7ZEqebWLQ8" modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
