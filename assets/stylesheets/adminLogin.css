@@ -14,22 +14,4 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-
-.admin .login-loader {
-  text-align: center;
-}
-
-.admin .login-loader .text-loader {
-  display: none;
-  font-size: 20px;
-  font-weight: 800;
-  color: green;
-}
-
-.admin .login-loader .error {
-  display: none;
-  color: red;
-  font-size: 20px;
-  font-weight: 700;
-}
 /*# sourceMappingURL=adminLogin.css.map */

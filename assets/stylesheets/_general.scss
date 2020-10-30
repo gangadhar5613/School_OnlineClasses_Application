@@ -74,3 +74,23 @@ body{
     background-color:black;
     color: white;
 }
+
+
+.login-loader{
+
+    text-align: center;
+
+      .text-loader{
+          display: none;
+          font-size: 20px;
+          font-weight: 800;
+          color: green;
+      }
+
+      .error{
+          display: none;
+          color: red;
+          font-size: 20px;
+          font-weight: 700;
+      }
+  }

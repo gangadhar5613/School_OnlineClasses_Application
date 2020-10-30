@@ -184,10 +184,139 @@ let tenthStudents = [
     },
     {
         id:"N925",
-        username:"prasanna10",
+        username:"sreenalanda@10",
         name:"N Lakshmi Prasanna",
         password:"Nalanda@120"   
-    }
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"P Sai Jagruthi",
+        password:"sreenalanda@18"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"k reddamma",
+        password:"sreenalanda@28"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"B Akshya jyothi",
+        password:"sreenalanda@48"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"C Venkata sulochana ",
+        password:"sreenalanda@58"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"M Mounika",
+        password:"sreenalanda@68"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"V Usha rani",
+        password:"sreenalanda@88"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"A Aiswarya",
+        password:"sreenalanda@09"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"Y Suvarna lakshmi",
+        password:"sreenalanda@19"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"P Varalakshmi",
+        password:"srinalanda@29"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"S Hussaina bhanu",
+        password:"srinalanda@39"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"N Mallieswari",
+        password:"sreenalanda@602"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"B Lakshmi sailaga",
+        password:"sreenalanda@942"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"P Pavithra reddy",
+        password:"sreenalanda@092"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"A V Sai teja",
+        password:"sreenalanda@59"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"B venkata sai",
+        password:"sreenalanda@79"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"D reddy teja",
+        password:"sreenalanda@89"   
+    },
+    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"U somo sekhar",
+        password:"sreenalanda@001"   
+    },    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"B manjunath reddy",
+        password:"sreenalanda@301"   
+    },    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"G yeswanth",
+        password:"sreenalanda@482"   
+    },    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"G dharmateja reddy",
+        password:"sreenalanda@282"   
+    },    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"M venkata ravi teja",
+        password:"sreenalanda@382"   
+    },    {
+        id:"N925",
+        username:"sreenalanda@10",
+        name:"A V Sai teja",
+        password:"sreenalanda@59"   
+    },
+
+
 ]
 
 
@@ -264,17 +393,12 @@ let classFive = [
         password:"Nalanda@5"   
     },
     {
-        id:"N925",
-        username:"prasanna5",
-        name:"N Lakshmi Prasanna",
-        password:"Nalanda@5"   
+        id:"N5001",
+        username:"sreenalanda@5",
+        name:"5th Class",
+        password:"sreenalanda@2008"   
     },
-    {
-        id:"N925",
-        username:"prasanna5",
-        name:"N Lakshmi Prasanna",
-        password:"Nalanda@5"   
-    },
+
 
 ]
 
@@ -293,10 +417,10 @@ let classFour = [
         password:"Nalanda@4"   
     },
     {
-        id:"N925",
-        username:"prasanna4",
-        name:"N Lakshmi Prasanna",
-        password:"Nalanda@4"   
+        id:"N4001",
+        username:"sreenalanda@4",
+        name:"4th Class",
+        password:"sreenalanda@2008"   
     }
 ]
 
@@ -315,11 +439,12 @@ let classThree = [
         password:"Nalanda@3"   
     },
     {
-        id:"N925",
-        username:"prasanna3",
-        name:"N Lakshmi Prasanna",
-        password:"Nalanda@3"   
-    }
+        id:"N3001",
+        username:"sreenalanda@3",
+        name:"3rd Class",
+        password:"sreenalanda@2008"   
+    },
+
 ]
 
 // 
@@ -352,7 +477,9 @@ let login = document.querySelector(".login-btn");
 
 let studentName = document.querySelector(".student-name");
 
-let classOption = document.querySelector(".options-class")
+let classOption = document.querySelector(".options-class");
+let loginLoader = document.querySelector(".text-loader");
+let errorLoader = document.querySelector(".error");
 
 let activeUser =[];
 
@@ -383,15 +510,46 @@ let userIndex;
  
 function userExists(event) {
 
-
+   
         event.preventDefault();
         // if(selectedValue = ""){
         //     alert("Please Select class");
         // }
         let usernameClient = event.target.elements.username;
         let passwordClient = event.target.elements.password;
+
+
+
+       
+            // event.preventDefault();
+           
+        
+            // const email = loginForm['username'].value;
+            // const password = loginForm['password'].value;
+        
+            // auth.signInWithEmailAndPassword(email,password).then( cred =>{
+            //     console.log(cred.user);
+            //     errorLoader.style.display = "none";
+            //     loginForm.reset();
+            //     window.location.href = "/pages/adminDashboard.html";
+            // })
+            // .catch(function( error ){
+            //     loginLoader.style.display = "none";
+            //     errorLoader.style.display = "block";
+            // });
+        
+        
+        
+        
+        
+        
+        
+       
+
+
        
         if(selectedValue == "10"){
+            // loginLoader.style.display = "block";
             let check = tenthStudents.some(function(el) {
                 //  userIndex = indexOf(el);
                 return el.username === usernameClient.value && el.password === passwordClient.value;
@@ -411,6 +569,8 @@ function userExists(event) {
                  window.location.href ="../pages/studentProfile.html"; 
                 console.log("10th class student")
             }else{
+                loginLoader.style.display = "none";
+                errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -434,6 +594,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -457,6 +619,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -480,6 +644,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -504,6 +670,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -528,6 +696,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -552,6 +722,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -559,6 +731,7 @@ function userExists(event) {
              }
         }
         else if(selectedValue == "3"){
+            loginLoader.style.display = "block";
             let check = classThree.some(function(el) {
                 // userIndex = tenthStudents.indexOf(el);
                 return el.username === usernameClient.value && el.password === passwordClient.value;
@@ -576,6 +749,8 @@ function userExists(event) {
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
+                loginLoader.style.display = "none";
+                    errorLoader.style.display = "block";
                 usernameBox.style.border ="2px solid red";
                      passwordBox.style.border ="2px solid red";
                    alert("Invalid Login Details");
@@ -588,7 +763,7 @@ function userExists(event) {
         // if(selectedValue !==  "10" || "9" || "8" || "7" || "6" || "5" || "4" || "3"){
         //     alert("Please select class.")
         // };
-
+      
        
     }
     

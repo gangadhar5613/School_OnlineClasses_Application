@@ -46,6 +46,7 @@
             </div>
      </section>
        </article>
+        <!-- <article class="subjects container">
             <section class="subject-info">
                 <a  class="btn  sub-btn" href="#">Telugu</a>
                 <div class="select-chp">
@@ -64,7 +65,16 @@
                 <p class="chapter-inst">Please complete the video and note down your doubts in book and ask your subject teacher.</p>
             </Section>
             <section class="video">
-              <iframe class="ytp-big-mode ytp-title-channel-logo ytp-title-text link-video" src="https://www.youtube.com/embed/BwOXp5GgFGs"  modestbranding="1" showinfo="0" fs="0" rel="0" controls = "0"  frameborder="0" showinfo = "0" frameborder="0" allow="accelerometer; autoplay;  encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <video
+                id="my-video"
+                class="video-js video-link"
+                controls
+                preload="auto" 
+                poster="MY_VIDEO_POSTER.jpg"
+                data-setup="{}"
+              >
+                <source src="/assets/videos/subject-videos/3rdClass/telugu/1st/Class_3_Telugu_Lesson_1(360p).mp4" type="video/mp4" />
+              </video>
             </section>
             <section class="notes">
                 <div class="notes-box">
@@ -87,7 +97,9 @@
   </body>
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+    <script src="/assets/js/schedule.js"></script>
     <script src="/assets/js/subjects.js"></script>
-        <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    <script src="https://vjs.zencdn.net/7.8.4/video.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
 </html>
