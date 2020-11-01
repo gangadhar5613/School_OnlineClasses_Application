@@ -80,11 +80,13 @@ let fifthClassLessons = [
           `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_2(360p).mp4` ,
           `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_3(360p).mp4` ,
           `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_4(360p).mp4` ,
+          `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_5(360p).mp4` ,
+
      
      ],
      //Maths
      [
-          `/assets/videos/subject-videos/5thClass/telugu/1st/Class_5_Telugu_Lesson_1(360p).mp4` ,
+          `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4` ,
           
       ],
 ]

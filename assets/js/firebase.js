@@ -10,7 +10,8 @@ var firebaseConfig = {
     };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-const auth = firebase.auth();
+var auth = firebase.auth();
+var storage = firebase.storage();
 // const dataBase = firebase.firestore();
 
 
