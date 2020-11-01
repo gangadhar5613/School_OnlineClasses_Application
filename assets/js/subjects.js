@@ -949,49 +949,54 @@ if(activeClass == "3"){
     
 
   if(event.target.dataset.set == "Telugu"){
-    // let teluguLinks = thirdClassLessonVidoes[0];
-    // teluguLinks.forEach(link => {
-    //   let div = document.createElement("div");
-      
-      
-    //   div.innerHTML = `<video
-    //   id="my-video"
-    //   class="video-js video-link"
-    //   controls
-    //   controlsList="nodownload"
-    //   preload="auto" 
-    //   poster="MY_VIDEO_POSTER.jpg"
-    //   data-setup="{}"
-    // >
-    //   <source src = ${link} type="video/mp4" />
-    // </video>`;
-    //   videoSection.append(div);
-    // })
-    let div = document.createElement("div");
-    div.innerText = "Lessons Not available" ;
-    videoSection.append(div);
-  }
-  if(event.target.dataset.set == "Hindi"){
-  //  let hindiLinks = seventhClassLinks[1];
-  //  hindiLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
+    if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                        
+      let div = document.createElement("div");
+      div.classList.add("video-div")
+      div.innerHTML = `<video
+      id="my-video"
+      class="video-js video-link"
+      controls
+      controlsList="nodownload"
+      preload="auto" 
+      poster="/assets/images/poster.gif"
+      data-setup="{}"
+    >
+      <source src = ${thirdClassTeluguLink} type="video/mp4" />
+    </video>`;
+      videoSection.append(div);
+  
+  }else{
   let div = document.createElement("div");
   div.innerText = "Lessons Not available" ;
   videoSection.append(div);
+  }
+  }
+  if(event.target.dataset.set == "Hindi"){
+    if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                        
+      let div = document.createElement("div");
+      div.classList.add("video-div")
+      div.innerHTML = `<video
+      id="my-video"
+      class="video-js video-link"
+      controls
+      controlsList="nodownload"
+      preload="auto" 
+      poster="/assets/images/poster.gif"
+      data-setup="{}"
+    >
+      <source src = ${thirdClassHindiLink} type="video/mp4" />
+    </video>`;
+      videoSection.append(div);
+  
+  }else{
+  let div = document.createElement("div");
+  div.innerText = "Lessons Not available" ;
+  videoSection.append(div);
+  }
  }
  if(event.target.dataset.set == "English"){
-  //  let englishLinks = thirdClassLessonVidoes[1];
-  //  englishLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
-  
-  // let link = englishLinks[2];
-
       
   if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){                        
               let div = document.createElement("div");
@@ -1020,13 +1025,8 @@ if(activeClass == "3"){
 
   
  }
+
  if(event.target.dataset.set == "Maths"){
-  //  let mathsLinks = seventhClassLinks[3];
-  //  mathsLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
   if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
                         
     let div = document.createElement("div");
@@ -1050,27 +1050,54 @@ div.innerText = "Lessons Not available" ;
 videoSection.append(div);
 }
  }
+
  if(event.target.dataset.set == "Science"){
-  //  let physicsLinks = seventhClassLinks[4];
-  //  physicsLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
-  let div = document.createElement("div");
-  div.innerText = "Lessons Not available" ;
-  videoSection.append(div);
+  if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                        
+    let div = document.createElement("div");
+    div.classList.add("video-div")
+    div.innerHTML = `<video
+    id="my-video"
+    class="video-js video-link"
+    controls
+    controlsList="nodownload"
+    preload="auto" 
+    poster="/assets/images/poster.gif"
+    data-setup="{}"
+  >
+    <source src = ${thirdClassScienceLink} type="video/mp4" />
+  </video>`;
+    videoSection.append(div);
+
+}else{
+let div = document.createElement("div");
+div.innerText = "Lessons Not available" ;
+videoSection.append(div);
+}
  }
  if(event.target.dataset.set == "Social"){
-  //  let socialLinks = seventhClassLinks[5];
-  //  socialLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
-  let div = document.createElement("div");
-  div.innerText = "Lessons Not available" ;
-  videoSection.append(div);
+  if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                        
+    let div = document.createElement("div");
+    div.classList.add("video-div")
+    div.innerHTML = `<video
+    id="my-video"
+    class="video-js video-link"
+    controls
+    controlsList="nodownload"
+    preload="auto" 
+    poster="/assets/images/poster.gif"
+    data-setup="{}"
+  >
+    <source src = ${thirdClassSocialLink} type="video/mp4" />
+  </video>`;
+    videoSection.append(div);
+
+}else{
+let div = document.createElement("div");
+div.innerText = "Lessons Not available" ;
+videoSection.append(div);
+}
  }
 
 } 
