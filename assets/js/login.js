@@ -482,6 +482,11 @@ let loginLoader = document.querySelector(".text-loader");
 let errorLoader = document.querySelector(".error");
 
 let activeUser =[];
+let changeSubject = document.querySelector(".activeSubject");
+let changeSession = document.querySelector(".sessionTime");
+
+let activeSessionMorning = localStorage.getItem("fifthClassScheduleMorning");
+let activeSessionAfternoon = localStorage.getItem('fifthClassScheduleAfternoon');
 
   
    
@@ -693,6 +698,8 @@ function userExists(event) {
                activeUser.push(usernameClient.value,passwordClient.value);
                localStorage.setItem("username",activeUser[0]);
                localStorage.setItem("class",selectedValue);
+               localStorage.setItem("fifthActiveMorning",activeSessionMorning);
+               localStorage.setItem("fifthActiveAfternoon",activeSessionAfternoon);
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
@@ -719,6 +726,8 @@ function userExists(event) {
                activeUser.push(usernameClient.value,passwordClient.value);
                localStorage.setItem("username",activeUser[0]);
                localStorage.setItem("class",selectedValue);
+                                
+
                console.log("9th class student")
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
@@ -747,6 +756,7 @@ function userExists(event) {
                localStorage.setItem("username",activeUser[0]);
                localStorage.setItem("class",selectedValue);
                console.log("9th class student")
+
                  window.location.href ="../pages/studentProfile.html"; 
              }else{
                 loginLoader.style.display = "none";

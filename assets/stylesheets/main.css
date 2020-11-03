@@ -622,6 +622,45 @@ body {
   font-weight: 600;
 }
 
+.student-details .schedule .table {
+  font-family: monospace;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: linear-gradient(200deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
+}
+
+.student-details .schedule .table .headings {
+  padding: 5px;
+  text-align: center;
+  background: linear-gradient(45deg, #e6e6e6, #ffffff);
+  -webkit-box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
+          box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
+}
+
+.student-details .schedule .table .headings .name {
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.student-details .schedule .table .activeSchedule {
+  padding: 10px;
+}
+
+.student-details .schedule .table .activeSchedule .activeSubject {
+  font-size: 14px;
+  font-weight: 600;
+  color: #036803;
+  margin-bottom: 10px;
+}
+
+.student-details .schedule .table .activeSchedule .sessionTime {
+  font-size: 14px;
+  color: #036b03;
+}
+
 .classes {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -647,11 +686,6 @@ body {
   background: linear-gradient(315deg, #dedede, #ffffff);
   -webkit-box-shadow: -5px -5px 10px #e8e8e8,  5px 5px 10px #ffffff;
           box-shadow: -5px -5px 10px #e8e8e8,  5px 5px 10px #ffffff;
-}
-
-.classes .english {
-  color: #8b0505;
-  font-weight: 900;
 }
 
 .subjects {

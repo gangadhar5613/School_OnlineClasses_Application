@@ -11,6 +11,19 @@ let classChange = document.querySelector(".student-class");
 activeStudentName.innerText = nameOfUser;
 classChange.innerText = studentClass;
 
+//active schedule
+let activeSessionMor = localStorage.getItem("fifthActiveMorning");
+let activeSessionAtn = localStorage.getItem('fifthActiveAfternoon');
+
+let changeSubject = document.querySelector(".activeSubject");
+let changeSession = document.querySelector(".sessionTime");
+
+// changeSubject.innerText = activeSessionMor;
+
+// changeSession.innerText = activeSessionAtn;
+
+//
+
 function createClasses(){
    
     studentProfile.style.display = "none";
@@ -21,6 +34,7 @@ function createClasses(){
         anchor.innerText = subject;
         anchor.href ="../pages/subjects.html";
         div.append(anchor);
+        
         // subjectBtn.innerText = subject;
 
         
