@@ -6,9 +6,11 @@ let thirdClassLessonVidoes = [
      //telugu
      [
       `/assets/videos/subject-videos/3rdClass/telugu/1st/Class_3_Telugu_Lesson_1(360p).mp4`,
-      `/assets/videos/subject-videos/3rdClass/telugu/2nd/Class_3_Telugu_Lesson_2_Part_1(360p).mp4`,
-      `/assets/videos/subject-videos/3rdClass/telugu/2nd/Class_3_Telugu_Lesson_2_Part_2(360p).mp4`,
-      `/assets/videos/subject-videos/3rdClass/telugu/3rd/Class_3_Telugu_Lesson_3_Part_1(360p).mp4`,
+     //  `/assets/videos/subject-videos/3rdClass/telugu/2nd/Class_3_Telugu_Lesson_2_Part_1(360p).mp4`,
+     //  `/assets/videos/subject-videos/3rdClass/telugu/2nd/Class_3_Telugu_Lesson_2_Part_2(360p).mp4`,
+     `<iframe src="https://www.youtube.com/embed/7erjmWQJM_o" frameborder="0" allow="accelerometer; autoplay; rel = 0; modestbranding=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+    `<iframe  src="https://www.youtube.com/embed/exf55L-KlLs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;modestbranding=1; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+     `/assets/videos/subject-videos/3rdClass/telugu/3rd/Class_3_Telugu_Lesson_3_Part_1(360p).mp4`,
       `/assets/videos/subject-videos/3rdClass/telugu/3rd/Class_3_Telugu_Lesson_3_Part_2(360p).mp4`,
       `/assets/videos/subject-videos/3rdClass/telugu/4th/Class_3_Telugu_Lesson_4_Part_1(360p).mp4`,
       `/assets/videos/subject-videos/3rdClass/telugu/4th/Class_3_Telugu_Lesson_4_Part_2(360p).mp4`,
@@ -73,7 +75,7 @@ let thirdClassLessonVidoes = [
      //science
      [
           `/assets/videos/subject-videos/3rdClass/science/1st/Class_3_Science_Lesson_1_Part_1(360p).mp4`,
-          `/assets/videos/subject-videos/3rdClass/science/1st/Class_3_Science_Lesson_1_Part_2(360p).mp4`,
+          `/assets/videos/subject-videos/3rdClass/science/1st/Class_3_Science__Lesson_1_Part_2(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/science/2nd/Class_3_Science_Lesson_2_Part_1_2(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/science/2nd/Class_3_Science_Lesson_2_Part_2(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/science/3rd/Class_3_Science_Lesson_3_Part_1(360p).mp4`,
@@ -228,7 +230,9 @@ let fifthClassLessons = [
      ],
      //Maths
      [
-          `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4` ,
+          // `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4`,
+          `<iframe  src="https://www.youtube.com/embed/0SaKQrdfD2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+          `<iframe  src="https://www.youtube.com/embed/4l1yobklYzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
           
       ],
 ]

@@ -153,59 +153,58 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
     //     }
 
     //3rd November
-             let november3Timings = new Date(`November 03,2020 09:00:00 `);
+            //  let november3Timings = new Date(`November 03,2020 09:00:00 `);
 
 
-             //morning
-             //maths
-             if( (presentDate.getDate() === november3Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                thirdClassMathsLink = thirdClassMathsClasses[3];
-                console.log("Time started");
-                console.log(thirdClassEnglishLink);
-              }
-                   //afternoon
-                   //science
-                if( (presentDate.getDate() === november3Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                    thirdClassScienceLink = thirdClassScienceClasses[0];
-                    console.log("Time started");
-                    console.log(thirdClassScienceLink)
+            //  //morning
+            //  //maths
+            //  if( (presentDate.getDate() === november3Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+            //     thirdClassMathsLink = thirdClassMathsClasses[3];
+            //     console.log("Time started");
+            //     console.log(thirdClassEnglishLink);
+            //   }
+            //        //afternoon
+            //        //science
+            //     if( (presentDate.getDate() === november3Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+            //         thirdClassScienceLink = thirdClassScienceClasses[0];
+            //         console.log("Time started");
+            //         console.log(thirdClassScienceLink)
                     
-                }
+            //     }
 
     //4th November
 
-       let november4Timings = new Date(`November 04,2020 09:00:00 `);
+      //  let november4Timings = new Date(`November 04,2020 09:00:00 `);
 
-             //morning
-             if( (presentDate.getDate() === november4Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                thirdClassScienceLink = thirdClassScienceClasses[1];
-                console.log("Time started");
-                console.log(thirdClassScienceLink)
-              }
-              //afternoon
-                if( (presentDate.getDate() === november4Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                    thirdClassSocialLink = thirdClassSocialClasses[0];
-                    console.log("Time started");
-                    console.log(thirdClassSocialLink)
+      //        //morning
+      //        if( (presentDate.getDate() === november4Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+      //           thirdClassScienceLink = thirdClassScienceClasses[1];
+      //           console.log("Time started");
+      //           console.log(thirdClassScienceLink)
+      //         }
+      //         //afternoon
+      //           if( (presentDate.getDate() === november4Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+      //               thirdClassSocialLink = thirdClassSocialClasses[0];
+      //               console.log("Time started");
+      //               console.log(thirdClassSocialLink)
                     
-                }
+      //           }
 
     //5th November
 
-        let november5Timings = new Date(`November 05,2020 09:00:00 `);
-               //morning
-                if( (presentDate.getDate() === november5Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                        thirdClassSocialLink = thirdClassSocialClasses[2];
-                        console.log("Time started");
-                        console.log(thirdClassScienceLink)
-                }
-                //afternoon
-                    if( (presentDate.getDate() === november5Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                            thirdClassSocialLink = thirdClassSocialClasses[3];
-                            console.log("Time started");
-                            console.log(thirdClassSocialLink)
+        // let november5Timings = new Date(`November 05,2020 09:00:00 `);
+        //        //morning
+        //         if( (presentDate.getDate() === november5Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+        //                 thirdClassSocialLink = thirdClassSocialClasses[0];
+        //                 console.log(thirdClassSocialLink)
+                        
+        //         }
+        //         //afternoon
+        //             if( (presentDate.getDate() === november5Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+        //                     thirdClassSocialLink = thirdClassSocialClasses[1];
+                       
                             
-                    }
+        //             }
 
     //6th November
          let november6Timings = new Date(`November 06,2020 09:00:00`);
@@ -213,14 +212,12 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
                         //morning
                         if( (presentDate.getDate() === november6Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
                             thirdClassTeluguLink = thirdClassTeluguClasses[1];
-                            console.log("Time started");
-                            console.log(thirdClassScienceLink)
+                            
                     }
                     //afternoon
                         if( (presentDate.getDate() === november6Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
                                 thirdClassTeluguLink = thirdClassTeluguClasses[2];
-                                console.log("Time started");
-                                console.log(thirdClassSocialLink)
+                               
                                 
                         }
 
@@ -442,38 +439,38 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
         //     }
 
       //3rd November
-            let november3Class4 = new Date(`November 03,2020 09:00:00`)
-             //morning
-             //english-1-1
-                    if( (presentDate.getDate() === november3Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                      fourthClassEnglishLink = fourthClassEnglishClasses[0];
+            // let november3Class4 = new Date(`November 03,2020 09:00:00`)
+            //  //morning
+            //  //english-1-1
+            //         if( (presentDate.getDate() === november3Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+            //           fourthClassEnglishLink = fourthClassEnglishClasses[0];
                       
 
-              }
-              //afternoon
-              //english-1-2
-                  if( (presentDate.getDate() === november3Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                          fourthClassEnglishLink = fourthClassEnglishClasses[1];
+            //   }
+            //   //afternoon
+            //   //english-1-2
+            //       if( (presentDate.getDate() === november3Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+            //               fourthClassEnglishLink = fourthClassEnglishClasses[1];
                         
                           
-                  }
+            //       }
       
       //4th November
-            let november4Class4 = new Date(`November 04,2020 09:00:00`)
-            //morning
-            //english-1-3
-                  if( (presentDate.getDate() === november4Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                    fourthClassEnglishLink = fourthClassEnglishClasses[2];
+            // let november4Class4 = new Date(`November 04,2020 09:00:00`)
+            // //morning
+            // //english-1-3
+            //       if( (presentDate.getDate() === november4Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+            //         fourthClassEnglishLink = fourthClassEnglishClasses[2];
                     
 
-            }
-            //afternoon
-            //english-1-4
-                if( (presentDate.getDate() === november4Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                        fourthClassEnglishLink = fourthClassEnglishClasses[3];
+            // }
+            // //afternoon
+            // //english-1-4
+            //     if( (presentDate.getDate() === november4Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+            //             fourthClassEnglishLink = fourthClassEnglishClasses[3];
                       
                         
-                }
+            //     }
 
 
   //5th November
@@ -662,47 +659,96 @@ let fifthClassMathsClasses = fifthClassLessons[3];
 
 
     //3rd November
-            let november3Class5 = new Date(`November 03,2020 09:00:00`)
-            //morning
-            //english-1-2
-                  if( (presentDate.getDate() === november3Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                    fifthClassEnglishLink = fifthClassEnglishClasses[0];
+            // let november3Class5 = new Date(`November 03,2020 09:00:00`)
+            // //morning
+            // //english-1-2
+            //       if( (presentDate.getDate() === november3Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+            //         fifthClassEnglishLink = fifthClassEnglishClasses[0];
                 
                     
                     
 
-            }
-            //afternoon
-            //english-1-2
-                if( (presentDate.getDate() === november3Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                  fifthClassEnglishLink = fifthClassEnglishClasses[1];
+            // }
+            // //afternoon
+            // //english-1-2
+            //     if( (presentDate.getDate() === november3Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+            //       fifthClassEnglishLink = fifthClassEnglishClasses[1];
                       
                         
-                }
+            //     }
       
      //4rd November
-          let november4Class5 = new Date(`November 04,2020 09:00:00`)
-          //noticeBoard
-          if((presentDate.getDate() === november4Class5.getDate() )){
-            localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
-            localStorage.setItem("fifthClassScheduleAfternoon",'English-Lesson-1-Part-4');
-          }
-          //morning
-          //english-1-3
-                if( (presentDate.getDate() === november4Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                  fifthClassEnglishLink = fifthClassEnglishClasses[2];
+          // let november4Class5 = new Date(`November 04,2020 09:00:00`)
+          // //noticeBoard
+          // if((presentDate.getDate() === november4Class5.getDate() )){
+          //   localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
+          //   localStorage.setItem("fifthClassScheduleAfternoon",'English-Lesson-1-Part-4');
+          // }
+          // //morning
+          // //english-1-3
+          //       if( (presentDate.getDate() === november4Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+          //         fifthClassEnglishLink = fifthClassEnglishClasses[2];
                   
                   
                   
 
-          }
-          //afternoon
-          //english-1-4
-              if( (presentDate.getDate() === november4Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                fifthClassEnglishLink = fifthClassEnglishClasses[4];
+          // }
+          // //afternoon
+          // //english-1-4
+          //     if( (presentDate.getDate() === november4Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+          //       fifthClassEnglishLink = fifthClassEnglishClasses[4];
                     
                       
-              }
+          //     }
+
+    //5th November
+              //  let november5Class5 = new Date(`November 05,2020 09:00:00`)
+              //  //noticeBoard
+              // //  if((presentDate.getDate() === november4Class5.getDate() )){
+              // //    localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
+              // //    localStorage.setItem("fifthClassScheduleAfternoon",'English-Lesson-1-Part-4');
+              // //  }
+              //  //morning
+              //  //english-1-5
+              //        if( (presentDate.getDate() === november5Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+              //          fifthClassEnglishLink = fifthClassEnglishClasses[4];
+                       
+                       
+                       
+     
+              //  }
+              //  //afternoon
+              //  //maths-1-1
+              //      if( (presentDate.getDate() === november5Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+              //        fifthClassMathsLink = fifthClassMathsClasses[0];
+                         
+                           
+              //      }
+
+
+  //5th November
+                let november6Class5 = new Date(`November 05,2020 09:00:00`)
+                //noticeBoard
+              //  if((presentDate.getDate() === november4Class5.getDate() )){
+              //    localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
+              //    localStorage.setItem("fifthClassScheduleAfternoon",'English-Lesson-1-Part-4');
+              //  }
+                //morning
+                //english-1-5
+                      if( (presentDate.getDate() === november6Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+                        fifthClassMathsLink = fifthClassMathsClasses[0];
+                        
+                        
+                        
+
+                }
+                //afternoon
+                //maths-1-1
+                    if( (presentDate.getDate() === november6Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+                      fifthClassMathsLink = fifthClassMathsClasses[1];
+                          
+                            
+                    }
 
 
 //
@@ -1428,28 +1474,28 @@ console.log(fourthClassEnglishLink);
   //    videoSection.append(div);
   //  })
   if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
-                        
-    let div = document.createElement("div");
-    div.classList.add("video-div")
-  //   div.innerHTML = `<video
-  //   id="my-video"
-  //   class="video-js video-link"
-  //   controls
-  //   controlsList="nodownload"
-  //   preload="auto" 
-  //   poster="/assets/images/poster.gif"
-  //   data-setup="{}"
-  // >
-  //   <source src = ${fifthClassMathsLink} type="video/mp4" />
-  // </video>`;
-  div.innerHTML = `<iframe  src="https://www.youtube.com/embed/888eTL5PWac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;rel=0;modestbranding=1; gyroscope; picture-in-picture" allowfullscreen></iframe>`
-    videoSection.append(div);
+                                  
+              let div = document.createElement("div");
+              div.classList.add("video-div")
+            //   div.innerHTML = `<video
+            //   id="my-video"
+            //   class="video-js video-link"
+            //   controls
+            //   controlsList="nodownload"
+            //   preload="auto" 
+            //   poster="/assets/images/poster.gif"
+            //   data-setup="{}"
+            // >
+            //   <source src = ${fifthClassMathsLink} type="video/mp4" />
+            // </video>`;
+            div.innerHTML = fifthClassMathsLink;
+              videoSection.append(div);
 
-}else{
-let div = document.createElement("div");
-div.innerText = "Lessons Not available" ;
-videoSection.append(div);
-}
+          }else{
+          let div = document.createElement("div");
+          div.innerText = "Lessons Not available" ;
+          videoSection.append(div);
+          }
  }
  if(event.target.dataset.set == "Science"){
   //  let physicsLinks = seventhClassLinks[4];
@@ -1663,17 +1709,18 @@ if(activeClass == "3"){
                                   
                 let div = document.createElement("div");
                 div.classList.add("video-div")
-                div.innerHTML = `<video
-                id="my-video"
-                class="video-js video-link"
-                controls
-                controlsList="nodownload"
-                preload="auto" 
-                poster="/assets/images/poster.gif"
-                data-setup="{}"
-              >
-                <source src = ${thirdClassTeluguLink} type="video/mp4" />
-              </video>`;
+              //   div.innerHTML = `<video
+              //   id="my-video"
+              //   class="video-js video-link"
+              //   controls
+              //   controlsList="nodownload"
+              //   preload="auto" 
+              //   poster="/assets/images/poster.gif"
+              //   data-setup="{}"
+              // >
+              //   <source src = ${thirdClassTeluguLink} type="video/mp4" />
+              // </video>`;
+              div.innerHTML = thirdClassTeluguLink;
                 videoSection.append(div);
             
             }else{
