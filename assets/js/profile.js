@@ -12,15 +12,72 @@ activeStudentName.innerText = nameOfUser;
 classChange.innerText = studentClass;
 
 //active schedule
-let activeSessionMor = localStorage.getItem("fifthActiveMorning");
-let activeSessionAtn = localStorage.getItem('fifthActiveAfternoon');
+// let activeSessionMor = localStorage.getItem("fifthActiveMorning");
+// let activeSessionAtn = localStorage.getItem('fifthActiveAfternoon');
 
-let changeSubject = document.querySelector(".activeSubject");
-let changeSession = document.querySelector(".sessionTime");
+let morningSession = document.querySelector(".morningSession");
+let afternoonSession = document.querySelector(".afternoonSession");
+//third class local storage
+
+let thirdActiveSessionMorning = localStorage.getItem("thirdClassScheduleMorning");
+let thirdActiveSessionAfternoon = localStorage.getItem('thirdClassScheduleAfternoon');
+
+
+
+if(studentClass == 3){
+    morningSession.innerText = thirdActiveSessionMorning;
+    afternoonSession.innerText = thirdActiveSessionAfternoon;
+
+}
+
+//
+
+
+//fourth class local storage
+
+let fourthActiveSessionMorning = localStorage.getItem("fourthClassScheduleMorning");
+let fourthActiveSessionAfternoon = localStorage.getItem('fourthClassScheduleAfternoon');
+
+
+
+if(studentClass == 4){
+    morningSession.innerText = fourthActiveSessionMorning;
+    afternoonSession.innerText = fourthActiveSessionAfternoon;
+
+}
+
+//
+
+
+//fifth class local storage
+
+let fifthActiveSessionMorning = localStorage.getItem("fifthClassScheduleMorning");
+let fifthActiveSessionAfternoon = localStorage.getItem('fifthClassScheduleAfternoon');
+
+
+
+if(studentClass == 5){
+    morningSession.innerText = fifthActiveSessionMorning;
+    afternoonSession.innerText = fifthActiveSessionAfternoon;
+
+}
+
+//
+
 
 // changeSubject.innerText = activeSessionMor;
 
 // changeSession.innerText = activeSessionAtn;
+
+//
+
+
+
+
+
+
+
+
 
 //
 

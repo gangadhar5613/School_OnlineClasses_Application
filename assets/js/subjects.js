@@ -259,17 +259,25 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
     //9th November
       let november9Timings = new Date(`November 09,2020 09:00:00`);
 
+      localStorage.setItem("thirdClassScheduleMorning",'English-2nd Lesson- Part-3');
+      localStorage.setItem("thirdClassScheduleAfternoon",'English-2nd Lesson- Part-4');
+
+      
+
+
+
                     //morning
                     if( (presentDate.getDate() === november9Timings.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
                         thirdClassEnglishLink = thirdClassEnglishClasses[7];
-                        console.log("Time started");
-                        console.log(thirdClassScienceLink)
+                        console.log("Time started morning");
+                        console.log(thirdClassEnglishLink)
+                      
                 }
                 //afternoon
                     if( (presentDate.getDate() === november9Timings.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
                             thirdClassEnglishLink = thirdClassEnglishClasses[8];
-                            console.log("Time started");
-                            console.log(thirdClassSocialLink)
+                            console.log("Time started afternoon");
+                            console.log(thirdClassEnglishLink);
                             
                     }
     
@@ -474,21 +482,21 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
 
 
   //5th November
-                      let november5Class4 = new Date(`November 05,2020 09:00:00`)
-                      //morning
-                      //english-1-5
-                            if( (presentDate.getDate() === november5Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
-                              fourthClassEnglishLink = fourthClassEnglishClasses[4];
+                      // let november5Class4 = new Date(`November 05,2020 09:00:00`)
+                      // //morning
+                      // //english-1-5
+                      //       if( (presentDate.getDate() === november5Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+                      //         fourthClassEnglishLink = fourthClassEnglishClasses[4];
                               
 
-                      }
-                      //afternoon
-                      //maths-1-1
-                          if( (presentDate.getDate() === november5Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
-                                  fourthClassMathsLink = fourthClassMathsClasses[0];
+                      // }
+                      // //afternoon
+                      // //maths-1-1
+                      //     if( (presentDate.getDate() === november5Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+                      //             fourthClassMathsLink = fourthClassMathsClasses[0];
                                 
                                   
-                          }
+                      //     }
 
 
 
@@ -531,9 +539,14 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
   //9th November
           let november9Class4 = new Date(`November 09,2020 09:00:00`)
           //morning
+          localStorage.setItem("fourthClassScheduleMorning",'Mathematics-1st Lesson- Part-6');
+          localStorage.setItem("fourthClassScheduleAfternoon",'Science-1st Lesson- Part-1');
+
+
           //maths-1-6
                 if( (presentDate.getDate() === november9Class4.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
                   fourthClassMathsLink = fourthClassMathsClasses[5];
+                  console.log('morning')
                   
 
           }
@@ -541,6 +554,7 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
           //science-1-1
               if( (presentDate.getDate() === november9Class4.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
                       fourthClassScienceLink = fourthClassScienceClasses[0];
+                      console.log("afternoon")
                     
                       
               }
@@ -642,10 +656,16 @@ let commonAfternoonOffTime = new Date(`November 02,2020 15:00:00`);
 
 let fifthClassEnglishLink;
 let fifthClassMathsLink;
+let fifthClassScienceLink;
+let fifthClassSocialLink;
 
 let fifthClassEnglishClasses = fifthClassLessons[2];
 
 let fifthClassMathsClasses = fifthClassLessons[3];
+let fifthClassScienceClasses = fifthClassLessons[4];
+let fifthClassSocialClasses = fifthClassLessons[5];
+
+
 
  //30th october afternoon
 
@@ -726,8 +746,8 @@ let fifthClassMathsClasses = fifthClassLessons[3];
               //      }
 
 
-  //5th November
-                let november6Class5 = new Date(`November 05,2020 09:00:00`)
+  //6th November
+                let november6Class5 = new Date(`November 6,2020 09:00:00`)
                 //noticeBoard
               //  if((presentDate.getDate() === november4Class5.getDate() )){
               //    localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
@@ -749,6 +769,44 @@ let fifthClassMathsClasses = fifthClassLessons[3];
                           
                             
                     }
+
+  //9th November
+              let november9Class5 = new Date(`November 09,2020 09:00:00`)
+              //noticeBoard
+            //  if((presentDate.getDate() === november4Class5.getDate() )){
+            //    localStorage.setItem("fifthClassScheduleMorning",'English-Lesson-1-Part-3');
+            //    localStorage.setItem("fifthClassScheduleAfternoon",'English-Lesson-1-Part-4');
+            //  }
+                          
+
+
+              if((presentDate.getDate() === november9Class5.getDate() )){
+                localStorage.setItem("fifthClassScheduleMorning",'Science-1st Lesson- Part-2');
+                localStorage.setItem("fifthClassScheduleAfternoon",'Social-1st Lesson- Part-1');
+              }else{
+                localStorage.setItem("fifthClassScheduleMorning",'schedule');
+                localStorage.setItem("fifthClassScheduleAfternoon",'Wait for schedule');
+              }
+
+              //morning
+              //science-1-2
+                    if( (presentDate.getDate() === november9Class5.getDate() ) && ( presentDate.getHours() >= commonMorningOnTime.getHours() ) && ( presentDate.getHours() <= commonMorningOffTime.getHours()) ){
+                      fifthClassScienceLink = fifthClassScienceClasses[1];
+                      
+                      console.log("science")
+                      
+                      
+
+              }
+              //afternoon
+              //social-1-1
+                  if( (presentDate.getDate() === november9Class5.getDate() ) && ( presentDate.getHours() >= commonAfternoonOnTime.getHours() ) && ( presentDate.getHours() <= commonAfternoonOffTime.getHours()) ){
+                    fifthClassSocialLink = fifthClassSocialClasses[0];
+                        
+                          
+                  }
+
+
 
 
 //
@@ -1473,22 +1531,47 @@ console.log(fourthClassEnglishLink);
   //    div.innerHTML = link;
   //    videoSection.append(div);
   //  })
-  if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+  // if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
                                   
+          //     let div = document.createElement("div");
+          //     div.classList.add("video-div")
+          //   //   div.innerHTML = `<video
+          //   //   id="my-video"
+          //   //   class="video-js video-link"
+          //   //   controls
+          //   //   controlsList="nodownload"
+          //   //   preload="auto" 
+          //   //   poster="/assets/images/poster.gif"
+          //   //   data-setup="{}"
+          //   // >
+          //   //   <source src = ${fifthClassMathsLink} type="video/mp4" />
+          //   // </video>`;
+          //   div.innerHTML = `<iframe  src="https://www.youtube.com/embed/C_-Zqs12rPo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;modestbranding=1;rel =0; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+          //     videoSection.append(div);
+
+          // }else{
+          let div = document.createElement("div");
+          div.innerText = "Lessons Not available" ;
+          videoSection.append(div);
+          // }
+ }
+ if(event.target.dataset.set == "Science"){
+            if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                                            
               let div = document.createElement("div");
               div.classList.add("video-div")
-            //   div.innerHTML = `<video
-            //   id="my-video"
-            //   class="video-js video-link"
-            //   controls
-            //   controlsList="nodownload"
-            //   preload="auto" 
-            //   poster="/assets/images/poster.gif"
-            //   data-setup="{}"
-            // >
-            //   <source src = ${fifthClassMathsLink} type="video/mp4" />
-            // </video>`;
-            div.innerHTML = fifthClassMathsLink;
+              div.innerHTML = `<video
+              id="my-video"
+              class="video-js video-link"
+              controls
+              controlsList="nodownload"
+              preload="auto" 
+              poster="/assets/images/poster.gif"
+              data-setup="{}"
+            >
+              <source src = ${fifthClassScienceLink} type="video/mp4" />
+            </video>`;
+            // div.innerHTML = `<iframe  src="https://www.youtube.com/embed/97skc-qOAyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;rel =0; modestbranding=1;rel = 0; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
               videoSection.append(div);
 
           }else{
@@ -1497,27 +1580,34 @@ console.log(fourthClassEnglishLink);
           videoSection.append(div);
           }
  }
- if(event.target.dataset.set == "Science"){
-  //  let physicsLinks = seventhClassLinks[4];
-  //  physicsLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
-  let div = document.createElement("div");
-  div.innerText = "Lessons Not available" ;
-  videoSection.append(div);
- }
  if(event.target.dataset.set == "Social"){
-  //  let socialLinks = seventhClassLinks[5];
-  //  socialLinks.forEach(link => {
-  //    let div = document.createElement("div");
-  //    div.innerHTML = link;
-  //    videoSection.append(div);
-  //  })
-  let div = document.createElement("div");
-  div.innerText = "Lessons Not available" ;
-  videoSection.append(div);
+   
+              if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                                                        
+                let div = document.createElement("div");
+                div.classList.add("video-div")
+                div.innerHTML = `<video
+                id="my-video"
+                class="video-js video-link"
+                controls
+                controlsList="nodownload"
+                preload="auto" 
+                poster="/assets/images/poster.gif"
+                data-setup="{}"
+              >
+                <source src = ${fifthClassSocialLink} type="video/mp4" />
+              </video>`;
+              // div.innerHTML = `<iframe  src="https://www.youtube.com/embed/97skc-qOAyA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;rel =0; modestbranding=1;rel = 0; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+                videoSection.append(div);
+
+            }else{
+            let div = document.createElement("div");
+            div.innerText = "Lessons Not available" ;
+            videoSection.append(div);
+            }
+
+
+    
  }
 
 } 
@@ -1629,6 +1719,7 @@ if(activeClass == "4"){
                   >
                     <source src = ${fourthClassMathsLink} type="video/mp4" />
                   </video>`;
+                  // div.innerHTML = `<iframe src="https://www.youtube.com/embed/nlKd0JzdUls" frameborder="0" allow="accelerometer; autoplay; clipboard-write;rel =0; modestbranding=1; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
                     videoSection.append(div);
 
                 }else{
@@ -1770,6 +1861,7 @@ if(activeClass == "3"){
             >
               <source src = ${thirdClassEnglishLink} type="video/mp4" />
             </video>`;
+            // div.innerHTML = `<iframe  src="https://www.youtube.com/embed/lV-ZGCSevOQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write;modestbranding=1;rel = 0; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
               videoSection.append(div);
               
 
@@ -1785,78 +1877,78 @@ if(activeClass == "3"){
  }
 
  if(event.target.dataset.set == "Maths"){
-  if( (presentTime.getHours() >= commonMorningOnTime.getHours() && presentTime.getHours() <= commonMorningOffTime.getHours()) || (presentTime.getHours() >= commonAfternoonOnTime.getHours() && presentTime.getHours() <= commonAfternoonOffTime.getHours() ) ){
-                        
-    let div = document.createElement("div");
-    div.classList.add("video-div")
-    div.innerHTML = `<video
-    id="my-video"
-    class="video-js video-link"
-    controls
-    controlsList="nodownload"
-    preload="auto" 
-    poster="/assets/images/poster.gif"
-    data-setup="{}"
-  >
-    <source src = ${thirdClassMathsLink} type="video/mp4" />
-  </video>`;
-    videoSection.append(div);
+            if( (presentTime.getHours() >= commonMorningOnTime.getHours() && presentTime.getHours() <= commonMorningOffTime.getHours()) || (presentTime.getHours() >= commonAfternoonOnTime.getHours() && presentTime.getHours() <= commonAfternoonOffTime.getHours() ) ){
+                                  
+              let div = document.createElement("div");
+              div.classList.add("video-div")
+              div.innerHTML = `<video
+              id="my-video"
+              class="video-js video-link"
+              controls
+              controlsList="nodownload"
+              preload="auto" 
+              poster="/assets/images/poster.gif"
+              data-setup="{}"
+            >
+              <source src = ${thirdClassMathsLink} type="video/mp4" />
+            </video>`;
+              videoSection.append(div);
 
-}else{
-let div = document.createElement("div");
-div.innerText = "Lessons Not available" ;
-videoSection.append(div);
-}
+          }else{
+          let div = document.createElement("div");
+          div.innerText = "Lessons Not available" ;
+          videoSection.append(div);
+          }
  }
 
  if(event.target.dataset.set == "Science"){
-  if( (presentTime.getHours() >= commonMorningOnTime.getHours() && presentTime.getHours() <= commonMorningOffTime.getHours()) || (presentTime.getHours() >= commonAfternoonOnTime.getHours() && presentTime.getHours() <= commonAfternoonOffTime.getHours() ) ){
-                        
-    let div = document.createElement("div");
-    div.classList.add("video-div")
-    div.innerHTML = `<video
-    id="my-video"
-    class="video-js video-link"
-    controls
-    controlsList="nodownload"
-    preload="auto" 
-    poster="/assets/images/poster.gif"
-    data-setup="{}"
-  >
-    <source src = ${thirdClassScienceLink} type="video/mp4" />
-  </video>`;
-    videoSection.append(div);
+            if( (presentTime.getHours() >= commonMorningOnTime.getHours() && presentTime.getHours() <= commonMorningOffTime.getHours()) || (presentTime.getHours() >= commonAfternoonOnTime.getHours() && presentTime.getHours() <= commonAfternoonOffTime.getHours() ) ){
+                                  
+              let div = document.createElement("div");
+              div.classList.add("video-div")
+              div.innerHTML = `<video
+              id="my-video"
+              class="video-js video-link"
+              controls
+              controlsList="nodownload"
+              preload="auto" 
+              poster="/assets/images/poster.gif"
+              data-setup="{}"
+            >
+              <source src = ${thirdClassScienceLink} type="video/mp4" />
+            </video>`;
+              videoSection.append(div);
 
-}else{
-let div = document.createElement("div");
-div.innerText = "Lessons Not available" ;
-videoSection.append(div);
-}
+          }else{
+          let div = document.createElement("div");
+          div.innerText = "Lessons Not available" ;
+          videoSection.append(div);
+          }
  }
- if(event.target.dataset.set == "Social"){
-  if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
-                        
-    let div = document.createElement("div");
-    div.classList.add("video-div")
-    div.innerHTML = `<video
-    id="my-video"
-    class="video-js video-link"
-    controls
-    controlsList="nodownload"
-    preload="auto" 
-    poster="/assets/images/poster.gif"
-    data-setup="{}"
-  >
-    <source src = ${thirdClassSocialLink} type="video/mp4" />
-  </video>`;
-    videoSection.append(div);
+  if(event.target.dataset.set == "Social"){
+              if( (presentTime.getHours() >= morningOnTime.getHours() && presentTime.getHours() <= morningOffTime.getHours()) || (presentTime.getHours() >= afternoonOnTime.getHours() && presentTime.getHours() <= afternoonOffTime.getHours() ) ){
+                                    
+                let div = document.createElement("div");
+                div.classList.add("video-div")
+                div.innerHTML = `<video
+                id="my-video"
+                class="video-js video-link"
+                controls
+                controlsList="nodownload"
+                preload="auto" 
+                poster="/assets/images/poster.gif"
+                data-setup="{}"
+              >
+                <source src = ${thirdClassSocialLink} type="video/mp4" />
+              </video>`;
+                videoSection.append(div);
 
-}else{
-let div = document.createElement("div");
-div.innerText = "Lessons Not available" ;
-videoSection.append(div);
-}
- }
+            }else{
+            let div = document.createElement("div");
+            div.innerText = "Lessons Not available" ;
+            videoSection.append(div);
+            }
+  }
 
 } 
 // end of class 

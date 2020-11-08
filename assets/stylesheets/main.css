@@ -633,7 +633,7 @@ body {
 }
 
 .student-details .schedule .table .headings {
-  padding: 5px;
+  padding: 3px;
   text-align: center;
   background: linear-gradient(45deg, #e6e6e6, #ffffff);
   -webkit-box-shadow: 20px 20px 60px #d9d9d9,  -20px -20px 60px #ffffff;
@@ -647,6 +647,17 @@ body {
 
 .student-details .schedule .table .activeSchedule {
   padding: 10px;
+}
+
+.student-details .schedule .table .activeSchedule .session {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.student-details .schedule .table .activeSchedule .session h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: red;
 }
 
 .student-details .schedule .table .activeSchedule .activeSubject {

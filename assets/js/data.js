@@ -226,15 +226,26 @@ let fifthClassLessons = [
           `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_4(360p).mp4` ,
           `/assets/videos/subject-videos/5thClass/english/1st/Class_5_English_Lesson_1_Part_5(360p).mp4` ,
 
-     
      ],
      //Maths
      [
           // `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4`,
           `<iframe  src="https://www.youtube.com/embed/0SaKQrdfD2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-          `<iframe  src="https://www.youtube.com/embed/4l1yobklYzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+          `<iframe  src="https://www.youtube.com/embed/4l1yobklYzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
           
-      ],
+     ],
+
+      //science
+     [
+       `/assets/videos/subject-videos/5thClass/science/1st/Class_5_Science_Lesson_1_Part_1(360p).mp4`,
+       `/assets/videos/subject-videos/5thClass/science/1st/Class_5__Science_Lesson_1_Part_2(360p).mp4`,
+     ],
+     //social
+     [
+        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_1(360p).mp4`,
+        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_2(360p).mp4`,
+        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_3(360p).mp4`, 
+     ]
 ]
 
 
