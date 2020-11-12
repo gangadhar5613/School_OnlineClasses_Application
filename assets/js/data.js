@@ -35,6 +35,7 @@ let thirdClassLessonVidoes = [
           `/assets/videos/subject-videos/3rdClass/english/2nd/CLASS_3_English_Lesson_2_PART_2(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/english/2nd/Class_3_English_Lesson_2_Part_3(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/english/2nd/Class_3_English_Lesson_2_Part_4(360p).mp4`,
+          // `<iframe  src="https://www.youtube.com/embed/7Z62Js9jCAQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
           `/assets/videos/subject-videos/3rdClass/english/2nd/Class_3_English_Lesson_2_Part_5(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/english/3rd/CLASS_3_English_Lesson_3_PART_1(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/english/3rd/CLASS_3_English_Lesson_3_PART_2(360p).mp4`,
@@ -54,6 +55,7 @@ let thirdClassLessonVidoes = [
           `/assets/videos/subject-videos/3rdClass/maths/1st/Class_3_Mathematics__Lesson_1_Part_3(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/maths/1st/Class_3_Mathematics_Lesson_1_Part_4(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/maths/2nd/Class_3_Mathematics_Lesson_2_Part_1(360p).mp4`,
+          // `<iframe  src="https://www.youtube.com/embed/iQUfw5GoVqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
           `/assets/videos/subject-videos/3rdClass/maths/2nd/Class_3_Mathematics_Lesson_2_Part_2(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/maths/2nd/Class_3_Mathematics_Lesson_2_Part_3(360p).mp4`,
           `/assets/videos/subject-videos/3rdClass/maths/3rd/Class_3_Mathematics_Lesson_3_Part_1(360p).mp4`,
@@ -179,30 +181,32 @@ let fourthClassLessons = [
     ],
     //science
     [
-        `assets/videos/subject-videos/4thClass/science/1st/Class_4_Science_Lesson_1_Part_1(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/1st/Class_4__Science_Lesson_1_Part_2(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/2nd/Class_4_Science_Lesson_2_Part_1_2(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/2nd/Class_4_Science_Lesson_2_Part_2(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_1(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_2(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_3(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_1(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_2(360p).mp4`,
-         `assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_3(360p).mp4`,
+        `/assets/videos/subject-videos/4thClass/science/1st/Class_4_Science_Lesson_1_Part_1(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/1st/Class_4__Science_Lesson_1_Part_2(360p).mp4`,
+     // `<iframe  src="https://www.youtube.com/embed/h0KdIxFIuqQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+         `/assets/videos/subject-videos/4thClass/science/2nd/Class_4_Science_Lesson_2_Part_1_2(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/2nd/Class_4_Science_Lesson_2_Part_2(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_1(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_2(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/3rd/Class_4_Science_Lesson_3_Part_3(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_1(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_2(360p).mp4`,
+         `/assets/videos/subject-videos/4thClass/science/4th/Class_4_Science_Lesson_4_Part_3(360p).mp4`,
     ],
     //social
     [
-      `assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_1(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_2(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_3(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/2nd/Class_4_Social_Lesson_2__Part_1(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/2nd/Class_4_Social_Lesson_2_Part_2(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/3rd/Class_4_Social_Lesson_3_Part_1(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/3rd/Class_4_Social_Lesson_3_Part_2(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/4th/Class_4_Social_Lesson_4_Part_1(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/4th/Class_4_Social_Lesson_4_Part_2(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/5th/Class_4_Social_Lesson_5_Part_1(360p).mp4`,
-      `assets/videos/subject-videos/4thClass/social/5th/Class_4_Social_Lesson_5_Part_2(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_1(360p).mp4`,
+     // `<iframe  src="https://www.youtube.com/embed/m_QH-DThde4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+      `/assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_2(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/1st/Class_4_Social_Lesson_1_Part_3(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/2nd/Class_4_Social_Lesson_2__Part_1(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/2nd/Class_4_Social_Lesson_2_Part_2(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/3rd/Class_4_Social_Lesson_3_Part_1(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/3rd/Class_4_Social_Lesson_3_Part_2(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/4th/Class_4_Social_Lesson_4_Part_1(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/4th/Class_4_Social_Lesson_4_Part_2(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/5th/Class_4_Social_Lesson_5_Part_1(360p).mp4`,
+      `/assets/videos/subject-videos/4thClass/social/5th/Class_4_Social_Lesson_5_Part_2(360p).mp4`,
     ]
 ]
 
@@ -229,9 +233,9 @@ let fifthClassLessons = [
      ],
      //Maths
      [
-          // `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4`,
-          `<iframe  src="https://www.youtube.com/embed/0SaKQrdfD2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-          `<iframe  src="https://www.youtube.com/embed/4l1yobklYzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+          `/assets/videos/subject-videos/5thClass/maths/1st/Class_5_Mathematics_Lesson_1_Part_1.mp4`,
+          // `<iframe  src="https://www.youtube.com/embed/0SaKQrdfD2o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+          // `<iframe  src="https://www.youtube.com/embed/4l1yobklYzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
           
      ],
 
@@ -242,9 +246,11 @@ let fifthClassLessons = [
      ],
      //social
      [
-        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_1(360p).mp4`,
-        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_2(360p).mp4`,
-        `assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_3(360p).mp4`, 
+        `/assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_1(360p).mp4`,
+        `/assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_2(360p).mp4`,
+        `/assets/videos/subject-videos/5thClass/social/1st/Class_5_Social_Lesson_1_Part_3(360p).mp4`, 
+     // `<iframe  src="https://www.youtube.com/embed/2ym6qBZbVYs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+     // `<iframe  src="https://www.youtube.com/embed/BVGyHmWjahI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
      ]
 ]
 
